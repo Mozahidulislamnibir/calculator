@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#js {
+    text-align: left;
+}
+#js .container{
+    border: 1px solid red;
+    width: 992px;
+    display: flex;
+    justify-items: center;
+    
+}
+.form_body{
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form_body input{
+    border: 0.5px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px 0px;
+    background-color: rgb(255, 255, 255);
+}
+#js .card button {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid var(--brand1);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
