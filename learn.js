@@ -14,10 +14,10 @@
 // roll = "99";
 // year = "2021";
 
-function print_s(names, roll, year) {
-    console.log("my name is" + names);
-    console.log("my roll is" + roll);
-    console.log("my year is" + year);
+// function print_s(names, roll, year) {
+//     console.log("my name is" + names);
+//     console.log("my roll is" + roll);
+//     console.log("my year is" + year);
 // }
 // print_s(names, roll, year)
 
@@ -43,7 +43,7 @@ function print_s(names, roll, year) {
 // let after_exchange=0;
 
 function calculatorsd (number1,number2){
-    console.log(`sum = (number1 + number2)`);
+    console.log(`sum = ${number1 + number2}`);
     console.log(`sub = ${number1 - number2}`);
     console.log(`mul = ${number1 * number2}`);
     console.log(`div = ${number1 / number2}`);
@@ -52,7 +52,7 @@ function calculatorsd (number1,number2){
     document.getElementById("myList").innerHTML="";
 
     var node = document.createElement("LI");                 // Create a <li> node
-    var textnode = document.createTextNode(`sum =${number1 - number2}`);         // Create a text node
+    var textnode = document.createTextNode(`sum =${number1 + number2}`);         // Create a text node
     node.appendChild(textnode);                              // Append the text to <li>
     document.getElementById("myList").appendChild(node);     // Append <li> to <ul> with id="myList"
 
@@ -76,4 +76,4 @@ function calculatorsd (number1,number2){
     node.appendChild(textnode);                              // Append the text to <li>
     document.getElementById("myList").appendChild(node);     // Append <li> to <ul> with id="myList"
 }
-}
+

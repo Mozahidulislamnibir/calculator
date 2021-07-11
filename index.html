@@ -34,33 +34,46 @@
             
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="de.css">
+            <script src="learn.js"></script>
     </head>
-    <body>
+    <body style="background-color: rgb(0, 59, 136);">
         <section id="js">
-            <div class="container">
+            <div class="border">
+                <div class="container">
                 <div class="row">
-                    <div class="col-6">
+
+                    <div class="col-12">
                         <div class="card form_body">
                             <div class="card_body">
-                                <h5>Calculator</h5>
+                                <h4>Calculator</h4>
                                 <form action="#" name="data">
                                 <input type="number" name="number1" placeholder="Give input number">
                                 <input type="number" name="number2" placeholder="Give input number">
-                                <button type="button" onclick="calculatorsd (+data.number1.value , +data.number2.value)">Submit</button>
+                                <button type="button" onclick="calculatorsd (+ data.number1.value , + data.number2.value)"> Submit </button>
                                 </form>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12">
+                        <div class="card2 form_body">
+                            <div> 
+                                <h4>Result</h4> <br><br>
+                                <ul id="myList">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-12">
                         <div class="card form_body">
                             <div class="card_body">
                                 <ul id="myList">
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
+         </div>
         </section>
         <script src="learn.js"></script>
     </body>
