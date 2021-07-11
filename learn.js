@@ -52,7 +52,7 @@ function calculatorsd (number1,number2){
     document.getElementById("myList").innerHTML="";
 
     var node = document.createElement("LI");                 // Create a <li> node
-    var textnode = document.createTextNode(`sum = (number1 + number2)`);         // Create a text node
+    var textnode = document.createTextNode(`sum =${number1 - number2}`);         // Create a text node
     node.appendChild(textnode);                              // Append the text to <li>
     document.getElementById("myList").appendChild(node);     // Append <li> to <ul> with id="myList"
 
